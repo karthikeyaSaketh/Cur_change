@@ -67,3 +67,10 @@ form button{
     color: white;
     cursor : pointer;
 }
+
+@media screen and (max-width:500px){
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+    }
+}
